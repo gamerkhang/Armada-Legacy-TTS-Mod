@@ -2798,7 +2798,7 @@ Squadron:new(bwing, REBEL_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/rebel/bwing/ten_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/bwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 19
+    cost = 21
 })
 Squadron:new(bwing, REBEL_SQUAD, {
 	name = "Dagger Squadron",
@@ -2824,7 +2824,7 @@ Squadron:new(ywing, REBEL_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/rebel/ywing/dutch_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/ywing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 16,
+    cost = 18,
     aliases = {"Dutch Vander"}
 })
 Squadron:new(ywing, REBEL_SQUAD, {
@@ -2859,14 +2859,14 @@ Squadron:new(awing, REBEL_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/rebel/awing/tycho_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/awing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 16
+    cost = 18
 })
 Squadron:new(awing, REBEL_SQUAD, {
 	name = "Shara Bey",
     front =     ASSETS_ROOT.."squadrons/rebel/awing/shara_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/awing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 17
+    cost = 19
 })
 Squadron:new(awing, REBEL_SQUAD, {
 	name = "Green Squadron",
@@ -2892,21 +2892,21 @@ Squadron:new(xwing, REBEL_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/rebel/xwing/luke_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 20
+    cost = 22
 })
 Squadron:new(xwing, REBEL_SQUAD, {
 	name = "Wedge Antilles",
     front =     ASSETS_ROOT.."squadrons/rebel/xwing/wedge_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 19
+    cost = 20
 })
 Squadron:new(xwing, REBEL_SQUAD, {
 	name = "Biggs Darklighter",
     front =     ASSETS_ROOT.."squadrons/rebel/xwing/biggs_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 19
+    cost = 21
 })
 Squadron:new(xwing, REBEL_SQUAD, {
 	name = "Hera Syndulla",
@@ -2933,7 +2933,7 @@ Squadron:new(yt2400, REBEL_SQUAD, {
 	name = "YT-2400",
     front =     ASSETS_ROOT.."squadrons/rebel/yt2400/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/yt2400/base_diffuse.jpg",
-    cost = 16,
+    cost = 17,
     aliases = {'YT-2400s'}
 })
 Squadron:new(yt2400, REBEL_SQUAD, {
@@ -2971,7 +2971,7 @@ Squadron:new(yt1300, REBEL_SQUAD, {
     mesh =      ASSETS_ROOT.."squadrons/rebel/yt1300/gr_ro_model.obj",
     move = 3,
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 26
+    cost = 24
 })
 Squadron:new(yt1300, REBEL_SQUAD, {
 	name = "Lando Calrissian",
@@ -2980,7 +2980,7 @@ Squadron:new(yt1300, REBEL_SQUAD, {
     mesh =      ASSETS_ROOT.."squadrons/rebel/yt1300/gr_ro_model.obj",
     move = 3,
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 23
+    cost = 25
 })
 hwk = {
     mesh =      ASSETS_ROOT.."squadrons/rebel/hwk/co_in_model.obj",
@@ -2991,7 +2991,7 @@ Squadron:new(hwk, REBEL_SQUAD, {
 	name = "HWK-290",
     front =     ASSETS_ROOT.."squadrons/rebel/hwk/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/hwk/base_diffuse.jpg",
-    cost = 12,
+    cost = 10,
     aliases = {'HWK-290s'}
 })
 Squadron:new(hwk, REBEL_SQUAD, {
@@ -2999,7 +2999,7 @@ Squadron:new(hwk, REBEL_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/rebel/hwk/jan_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/hwk/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 19
+    cost = 21
 })
 Squadron:new(hwk, REBEL_SQUAD, {
 	name = "Kanan Jarrus",
@@ -3034,7 +3034,7 @@ Squadron:new(scurrg, REBEL_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/rebel/scurrg/ace_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/rebel/scurrg/bo_gr_model.obj",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 26
+    cost = 20
 })
 z95 = {
     mesh =      ASSETS_ROOT.."squadrons/rebel/z95/sw_model.obj",
@@ -3065,7 +3065,7 @@ Squadron:new(ewing, REBEL_SQUAD, {
 	name = "E-wing Squadron",
     front =     ASSETS_ROOT.."squadrons/rebel/ewing/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/ewing/base_diffuse.jpg",
-    cost = 15,
+    cost = 14,
     aliases = {'E-wing Squadrons', "E-wing"}
 })
 Squadron:new(ewing, REBEL_SQUAD, {
@@ -3106,7 +3106,7 @@ Squadron:new(lancer, REBEL_SQUAD, {
 	name = "Lancer-class Pursuit Craft",
     front =     ASSETS_ROOT.."squadrons/rebel/lancer/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/lancer/base_diffuse.jpg",
-    cost = 15,
+    cost = 14,
     aliases = {"Lancer Pursuit Craft","Lancer Pursuit Crafts","Lancer-class Pursuit Crafts","Lancer"}
 })
 Squadron:new(lancer, REBEL_SQUAD, {
@@ -3153,7 +3153,7 @@ Squadron:new(tie, EMPIRE_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/empire/tie/mauler_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/tie/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 15,
+    cost = 18,
     aliases = {"Mauler Mithel"}
 })
 Squadron:new(tie, EMPIRE_SQUAD, {
@@ -3169,7 +3169,7 @@ Squadron:new(tie, EMPIRE_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/empire/tie/valen_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/tie/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 13
+    cost = 15
 })
 Squadron:new(tie, EMPIRE_SQUAD, {
 	name = 'Black Squadron',
@@ -3202,7 +3202,7 @@ Squadron:new(int, EMPIRE_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/empire/int/ciena_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/int/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 17
+    cost = 19
 })
 Squadron:new(int, EMPIRE_SQUAD, {
 	name = "Vult Skerris",
@@ -3261,7 +3261,7 @@ Squadron:new(adv, EMPIRE_SQUAD, {
 	name = "TIE Advanced Squadron",
     front =     ASSETS_ROOT.."squadrons/empire/adv/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/adv/base_diffuse.jpg",
-    cost = 12,
+    cost = 11,
     aliases = {"TIE Advanced Squadrons", "TIE Advanced"}
 })
 Squadron:new(adv, EMPIRE_SQUAD, {
@@ -3269,7 +3269,7 @@ Squadron:new(adv, EMPIRE_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/empire/adv/vader_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/adv/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 21,
+    cost = 25,
     aliases = {'Darth Vader (TIE Advanced)'}
 })
 Squadron:new(adv, EMPIRE_SQUAD, {
@@ -3284,7 +3284,7 @@ Squadron:new(adv, EMPIRE_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/empire/adv/tempest_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/adv/unique_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/empire/adv/bo_es_model.obj",
-    cost = 13
+    cost = 12
 })
 firespray = {
     mesh =      ASSETS_ROOT.."squadrons/empire/firespray/bo_ro_model.obj",
@@ -3321,7 +3321,7 @@ Squadron:new(jumpmaster, EMPIRE_SQUAD, {
 	name = "JumpMaster 5000",
     front =     ASSETS_ROOT.."squadrons/empire/jumpmaster/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/jumpmaster/base_diffuse.jpg",
-    cost = 12,
+    cost = 10,
     aliases = {"JumpMaster 5000s"}
 })
 Squadron:new(jumpmaster, EMPIRE_SQUAD, {
@@ -3337,7 +3337,7 @@ Squadron:new(jumpmaster, EMPIRE_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/empire/jumpmaster/ace_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/empire/jumpmaster/gr_ro_model.obj",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 17
+    cost = 19
 })
 aggressor = {
     mesh =      ASSETS_ROOT.."squadrons/empire/aggressor/co_ro_model.obj",
@@ -3348,7 +3348,7 @@ Squadron:new(aggressor, EMPIRE_SQUAD, {
 	name = "Aggressor Assault Fighter",
     front =     ASSETS_ROOT.."squadrons/empire/aggressor/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/aggressor/base_diffuse.jpg",
-    cost = 16,
+    cost = 15,
     aliases = {"Aggressor Assault Fighters"}
 })
 Squadron:new(aggressor, EMPIRE_SQUAD, {
@@ -3406,7 +3406,7 @@ Squadron:new(phantom, EMPIRE_SQUAD, {
 	name = 'TIE Phantom Squadron',
     front =     ASSETS_ROOT.."squadrons/empire/pha/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/pha/base_diffuse.jpg",
-    cost = 14,
+    cost = 13,
     aliases = {"TIE Phantom Squadrons", "TIE Phantom"}
 })
 Squadron:new(phantom, EMPIRE_SQUAD, {
@@ -3435,7 +3435,7 @@ Squadron:new(defender, EMPIRE_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/empire/def/ace_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/empire/def/bo_gr_model.obj",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
-    cost = 21
+    cost = 25
 })
 Squadron:new(defender, EMPIRE_SQUAD, {
 	name = 'Darth Vader',
@@ -3443,7 +3443,7 @@ Squadron:new(defender, EMPIRE_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/empire/def/ace_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/empire/def/ad_bo_ro_model.obj",
     defense_tokens = {DEF_BRACE,DEF_EVADE},
-    cost = 25,
+    cost = 27,
     aliases = {'Darth Vader (defender)','Darth Vader (TIE Defender)'}
 })
 lambda = {
@@ -3484,7 +3484,7 @@ Squadron:new(decimator, EMPIRE_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/empire/decimator/ace_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/empire/decimator/co_ro_model.obj",
     defense_tokens = {DEF_BRACE},
-    cost = 27
+    cost = 29
 })
 gauntlet = {
     mesh =      ASSETS_ROOT.."squadrons/empire/guantlet/as_ro_model.obj",
@@ -3495,7 +3495,7 @@ Squadron:new(gauntlet, EMPIRE_SQUAD, {
 	name = 'Mandalorian Gauntlet Fighter',
     front =     ASSETS_ROOT.."squadrons/empire/guantlet/base_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/guantlet/base_diffuse.jpg",
-    cost = 20,
+    cost = 17,
     aliases = {'Mandalorian Gauntlet Fighters'}
 })
 Squadron:new(gauntlet, EMPIRE_SQUAD, {
@@ -3503,7 +3503,7 @@ Squadron:new(gauntlet, EMPIRE_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/empire/guantlet/saxon_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/guantlet/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE},
-    cost = 23
+    cost = 21
 })
 
 ----#include defs/empire/squadrons
@@ -4081,15 +4081,15 @@ Rebel = {
 }
 Card:new(Commander,Rebel,{name="Admiral Ackbar",  front="http://i.imgur.com/HFVv48K.jpg", cost=38})
 Card:new(Commander,Rebel,{name="Admiral Raddus",  front="http://i.imgur.com/2IPtau4.jpg", cost=26})
-Card:new(Commander,Rebel,{name="Commander Sato",  front="http://i.imgur.com/ir6QixK.jpg", cost=27})
-Card:new(Commander,Rebel,{name="Garm Bel Iblis",  front="http://i.imgur.com/fmlXop3.jpg", cost=25})
+Card:new(Commander,Rebel,{name="Commander Sato",  front="http://i.imgur.com/ir6QixK.jpg", cost=24})
+Card:new(Commander,Rebel,{name="Garm Bel Iblis",  front="http://i.imgur.com/fmlXop3.jpg", cost=22})
 Card:new(Commander,Rebel,{name="General Cracken",  front="http://i.imgur.com/0NHwrEL.jpg", cost=26})
 Card:new(Commander,Rebel,{name="General Dodonna",  front="http://i.imgur.com/MsS9AN8.jpg", cost=20})
-Card:new(Commander,Rebel,{name="General Madine",  front="http://i.imgur.com/ePeK8Ok.jpg", cost=30})
+Card:new(Commander,Rebel,{name="General Madine",  front="http://i.imgur.com/ePeK8Ok.jpg", cost=20})
 Card:new(Commander,Rebel,{name="General Rieekan",  front="http://i.imgur.com/Q6pSiLj.jpg", cost=34})
-Card:new(Commander,Rebel,{name="Kyrsta Agate",  front="http://i.imgur.com/CdWKsAz.jpg", cost=20})
+Card:new(Commander,Rebel,{name="Kyrsta Agate",  front="http://i.imgur.com/CdWKsAz.jpg", cost=30})
 Card:new(Commander,Rebel,{name="Leia Organa",  front="http://i.imgur.com/Xsqh5f0.jpg", cost=28})
-Card:new(Commander,Rebel,{name="Mon Mothma",  front="http://i.imgur.com/ZK3rQeb.jpg", cost=27})
+Card:new(Commander,Rebel,{name="Mon Mothma",  front="http://i.imgur.com/ZK3rQeb.jpg", cost=25})
 Card:new(Commander,Rebel,{name="General Draven",  front=ASSETS_ROOT.."cards/commanders/general_draven.jpg", cost=28})
 
 Empire = {
@@ -4099,16 +4099,16 @@ Empire = {
 Card:new(Commander,Empire,{name="Admiral Konstantine",  front="http://i.imgur.com/ONoTDBL.jpg", cost=23})
 Card:new(Commander,Empire,{name="Admiral Motti",  front="http://i.imgur.com/rkMe17G.jpg", cost=24})
 Card:new(Commander,Empire,{name="Admiral Ozzel",  front="http://i.imgur.com/v0nThwx.jpg", cost=20})
-Card:new(Commander,Empire,{name="Admiral Piett",  front="http://i.imgur.com/2D3DgQS.jpg", cost=22})
+Card:new(Commander,Empire,{name="Admiral Piett",  front="http://i.imgur.com/2D3DgQS.jpg", cost=20})
 Card:new(Commander,Empire,{name="Admiral Screed",  front="http://i.imgur.com/DUToctV.jpg", cost=26})
-Card:new(Commander,Empire,{name="Admiral Sloane",  front="http://i.imgur.com/rzZtf8B.jpg", cost=24})
-Card:new(Commander,Empire,{name="Darth Vader",  front="http://i.imgur.com/ysyfpEF.jpg", cost=36})
-Card:new(Commander,Empire,{name="Emperor Palpatine",  front="http://i.imgur.com/KBY36Qs.jpg", cost=35})
-Card:new(Commander,Empire,{name="General Romodi",  front="http://i.imgur.com/U9wK3K8.jpg", cost=20})
+Card:new(Commander,Empire,{name="Admiral Sloane",  front="http://i.imgur.com/rzZtf8B.jpg", cost=30})
+Card:new(Commander,Empire,{name="Darth Vader",  front="http://i.imgur.com/ysyfpEF.jpg", cost=30})
+Card:new(Commander,Empire,{name="Emperor Palpatine",  front="http://i.imgur.com/KBY36Qs.jpg", cost=30})
+Card:new(Commander,Empire,{name="General Romodi",  front="http://i.imgur.com/U9wK3K8.jpg", cost=23})
 Card:new(Commander,Empire,{name="General Tagge",  front="http://i.imgur.com/LduHiR8.jpg", cost=25})
-Card:new(Commander,Empire,{name="Grand Admiral Thrawn",  front="http://i.imgur.com/FSpE1gl.jpg", cost=32})
-Card:new(Commander,Empire,{name="Grand Moff Tarkin",  front="http://i.imgur.com/OxvHWmA.jpg", cost=28})
-Card:new(Commander,Empire,{name="Moff Jerjerrod",  front="http://i.imgur.com/qZAVH6a.jpg", cost=23})
+Card:new(Commander,Empire,{name="Grand Admiral Thrawn",  front="http://i.imgur.com/FSpE1gl.jpg", cost=30})
+Card:new(Commander,Empire,{name="Grand Moff Tarkin",  front="http://i.imgur.com/OxvHWmA.jpg", cost=25})
+Card:new(Commander,Empire,{name="Moff Jerjerrod",  front="http://i.imgur.com/qZAVH6a.jpg", cost=28})
 
 Republic = {
     factions={"Republic"}
@@ -4383,7 +4383,7 @@ Title = {
 Card:new(Title,Rebel,{name="Bright Hope", front="https://i.imgur.com/ppRWBhH.jpg", cost=2})
 Card:new(Title,Rebel,{name="Quantum Storm", front="https://i.imgur.com/Zvki0aa.jpg", cost=1})
 
-Card:new(Title,Rebel,{name="Dodonna's Pride", front="https://i.imgur.com/XoROjrp.jpg", cost=6, aliases={"Dodonnas Pride"}})
+Card:new(Title,Rebel,{name="Dodonna's Pride", front="https://i.imgur.com/XoROjrp.jpg", cost=3, aliases={"Dodonnas Pride"}})
 Card:new(Title,Rebel,{name="Jaina's Light", front="https://i.imgur.com/v5gczKg.jpg", cost=2, aliases={"Jainas Light"}})
 Card:new(Title,Rebel,{name="Liberator", front="https://i.imgur.com/zPLLjv2.jpg", cost=2})
 Card:new(Title,Rebel,{name="Tantive IV", front="https://i.imgur.com/THWav9j.jpg", cost=3})
@@ -4392,7 +4392,7 @@ Card:new(Title,Rebel,{name="Garel's Honor", front="https://i.imgur.com/tl2VV0J.j
 Card:new(Title,Rebel,{name="Task Force Antilles", front="https://i.imgur.com/NWw9f29.jpg", cost=3})
 Card:new(Title,Rebel,{name="Task Force Organa", front="https://i.imgur.com/FwbIwpU.jpg", cost=1})
 
-Card:new(Title,Rebel,{name="Redemption", front="https://i.imgur.com/Dp0ayI3.jpg", cost=8})
+Card:new(Title,Rebel,{name="Redemption", front="https://i.imgur.com/Dp0ayI3.jpg", cost=6})
 Card:new(Title,Rebel,{name="Salvation", front="https://i.imgur.com/xjIXfVD.jpg", cost=7})
 Card:new(Title,Rebel,{name="Vanguard", front="https://i.imgur.com/4a6la8P.jpg", cost=4})
 Card:new(Title,Rebel,{name="Yavaris", front="https://i.imgur.com/qtHU4B2.jpg", cost=5})
@@ -4407,7 +4407,7 @@ Card:new(Title,Rebel,{name="Paragon", front="https://i.imgur.com/1lMOUvu.jpg", c
 
 Card:new(Title,Rebel,{name="Defiance", front="https://i.imgur.com/cBm6bOA.jpg", cost=5})
 Card:new(Title,Rebel,{name="Home One", front="https://i.imgur.com/ao1aUWd.jpg", cost=7})
-Card:new(Title,Rebel,{name="Independence", front="https://i.imgur.com/eeJ4K4e.jpg", cost=8})
+Card:new(Title,Rebel,{name="Independence", front="https://i.imgur.com/eeJ4K4e.jpg", cost=4})
 
 Card:new(Title,Rebel,{name="Endeavor", front="https://i.imgur.com/YQO9jve.jpg", cost=4})
 Card:new(Title,Rebel,{name="Liberty", front="https://i.imgur.com/gnoxT5J.jpg", cost=3})
@@ -4419,7 +4419,7 @@ Card:new(Title,Rebel,{name="Profundity", front="https://i.imgur.com/P0LQ9NC.jpg"
 Card:new(Title,Rebel,{name="Mon Calamari Exodus Fleet", front="https://i.imgur.com/Gi02xgi.jpg", cost=5})
 
 Card:new(Title,Rebel,{name="Amity", front="https://i.imgur.com/BcOXgXM.jpg", cost=6})
-Card:new(Title,Rebel,{name="Concord", front="https://i.imgur.com/76LdzqR.jpg", cost=12})
+Card:new(Title,Rebel,{name="Concord", front="https://i.imgur.com/76LdzqR.jpg", cost=8})
 Card:new(Title,Rebel,{name="Unity", front="https://i.imgur.com/RP1KPrl.jpg", cost=10})
 --imperial
 Card:new(Title,Empire,{name="Suppressor", front="https://i.imgur.com/11G4bE0.jpg", cost=4})
@@ -4446,7 +4446,7 @@ Card:new(Title,Empire,{name="Warlord", front="https://i.imgur.com/E8oYSJj.jpg", 
 
 Card:new(Title,Empire,{name="Interdictor", front="https://i.imgur.com/sIO1x2W.jpg", cost=3})
 
-Card:new(Title,Empire,{name="Cataclysm", front="https://i.imgur.com/BJwwHvW.jpg", cost=5})
+Card:new(Title,Empire,{name="Cataclysm", front="https://i.imgur.com/BJwwHvW.jpg", cost=7})
 Card:new(Title,Empire,{name="Rakehell", front="https://i.imgur.com/R3NVdce.jpg", cost=4})
 Card:new(Title,Empire,{name="Sunder", front="https://i.imgur.com/qs97P5O.jpg", cost=10})
 
