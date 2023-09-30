@@ -4142,14 +4142,14 @@ DefensiveRetrofit = {
 CloneWars = {
     factions={"Republic","Separatist"}
 }
-Card:new(DefensiveRetrofit,CloneWars,{name="Thermal Shields", front="https://i.imgur.com/ih2D2Zz.png", cost=5})
+Card:new(DefensiveRetrofit,CloneWars,{name="Thermal Shields", front="https://i.imgur.com/ih2D2Zz.png", cost=7})
 
-Card:new(DefensiveRetrofit,{name="Advanced Projectors", front="https://i.imgur.com/fREeP77.jpg", cost=6})
-Card:new(DefensiveRetrofit,{name="Cluster Bombs", front="https://i.imgur.com/Ngqc1s9.jpg", cost=5})
+Card:new(DefensiveRetrofit,{name="Advanced Projectors", front="https://i.imgur.com/fREeP77.jpg", cost=4})
+Card:new(DefensiveRetrofit,{name="Cluster Bombs", front="https://i.imgur.com/Ngqc1s9.jpg", cost=2})
 Card:new(DefensiveRetrofit,{name="Early Warning System", front="https://i.imgur.com/PBh5gdb.jpg", cost=7})
-Card:new(DefensiveRetrofit,{name="Electronic Countermeasures", front="https://i.imgur.com/LF2AEZT.jpg", cost=7})
+Card:new(DefensiveRetrofit,{name="Electronic Countermeasures", front="https://i.imgur.com/LF2AEZT.jpg", cost=8})
 Card:new(DefensiveRetrofit,{name="Reactive Gunnery", front="https://i.imgur.com/rKp36un.jpg", cost=4})
-Card:new(DefensiveRetrofit,{name="Redundant Shields", front="https://i.imgur.com/3CmOh4B.jpg", cost=8})
+Card:new(DefensiveRetrofit,{name="Redundant Shields", front="https://i.imgur.com/3CmOh4B.jpg", cost=6})
 Card:new(DefensiveRetrofit,{name="Reinforced Blast Doors", front="https://i.imgur.com/OVWDAVK.jpg", cost=5})
 
 ----#include defs/cards/defensive_retrofit
@@ -4204,13 +4204,13 @@ IonCannons = {
 }
 Card:new(IonCannons,{name="Heavy Ion Emplacements", front="https://i.imgur.com/S82y39J.jpg", cost=9})
 Card:new(IonCannons,{name="High-Capacity Ion Turbines", front="https://i.imgur.com/sNFD2X4.jpg", cost=8})
-Card:new(IonCannons,{name="Ion Cannon Batteries", front="https://i.imgur.com/ygkNbuk.jpg", cost=5})
+Card:new(IonCannons,{name="Ion Cannon Batteries", front="https://i.imgur.com/ygkNbuk.jpg", cost=3})
 Card:new(IonCannons,{name="Leading Shots", front="https://i.imgur.com/0wvdKHN.jpg", cost=6})
 Card:new(IonCannons,{name="MS-1 Ion Cannons", front="https://i.imgur.com/WJpPDTH.jpg", cost=2, aliases={"MS-1 Ion Cannon"}})
-Card:new(IonCannons,{name="NK-7 Ion Cannons", front="https://i.imgur.com/pw7KB1o.jpg", cost=10})
+Card:new(IonCannons,{name="NK-7 Ion Cannons", front="https://i.imgur.com/pw7KB1o.jpg", cost=7})
 Card:new(IonCannons,{name="Overload Pulse", front="https://i.imgur.com/93yRQdH.jpg", cost=8})
-Card:new(IonCannons,{name="SW-7 Ion Batteries", front="https://i.imgur.com/rL77eki.jpg", cost=5})
-Card:new(IonCannons,{name="Point Defense Ion Cannons", front="https://i.imgur.com/Ed6N3bM.png", cost=4})
+Card:new(IonCannons,{name="SW-7 Ion Batteries", front="https://i.imgur.com/rL77eki.jpg", cost=4})
+Card:new(IonCannons,{name="Point Defense Ion Cannons", front="https://i.imgur.com/Ed6N3bM.png", cost=6})
 
 ----#include defs/cards/ion_cannons
 ----#include defs/cards/offensive_retrofit
@@ -4227,17 +4227,17 @@ Card:new(OffensiveRetrofit,Separatist,{name="Hyperwave Signal Boost", front="htt
 Card:new(OffensiveRetrofit,Separatist,{name="B2 Rocket Troopers", front="https://i.imgur.com/cK6wUox.png", cost=7})
 
 --generic
-Card:new(OffensiveRetrofit,{name="Advanced Transponder Net", front="https://i.imgur.com/vm6HKV1.jpg", cost=5}) --modification)
+Card:new(OffensiveRetrofit,{name="Advanced Transponder Net", front="https://i.imgur.com/vm6HKV1.jpg", cost=3}) --modification)
 Card:new(OffensiveRetrofit,{name="Boosted Comms", front="https://i.imgur.com/pq9oDK2.jpg", cost=4})
 Card:new(OffensiveRetrofit,{name="Disposable Capacitors", front="https://i.imgur.com/sujhLdx.jpg", cost=3})
 Card:new(OffensiveRetrofit,{name="Expanded Hangar Bay", front="https://i.imgur.com/uHXkIP2.jpg", cost=5})
 Card:new(OffensiveRetrofit,{name="Flag Bridge", front="https://i.imgur.com/qJksgmR.jpg", cost=0}) --modification)
-Card:new(OffensiveRetrofit,{name="Hardened Bulkheads", front="https://i.imgur.com/Cz9oxBt.jpg", cost=5})
+Card:new(OffensiveRetrofit,{name="Hardened Bulkheads", front="https://i.imgur.com/Cz9oxBt.jpg", cost=3})
 Card:new(OffensiveRetrofit,{name="Phylon Q7 Tractor Beams", front="https://i.imgur.com/x7VhJXM.jpg", cost=6})
-Card:new(OffensiveRetrofit,{name="Point-Defense Reroute", front="https://i.imgur.com/IAIYK4H.jpg", cost=5})
+Card:new(OffensiveRetrofit,{name="Point-Defense Reroute", front="https://i.imgur.com/IAIYK4H.jpg", cost=2})
 Card:new(OffensiveRetrofit,{name="Proximity Mines", front="https://i.imgur.com/e93H1wf.jpg", cost=4})
-Card:new(OffensiveRetrofit,{name="Quad Laser Turrets", front="https://i.imgur.com/HKfQx0O.jpg", cost=5})
-Card:new(OffensiveRetrofit,{name="Rapid Launch Bays", front="https://i.imgur.com/PHiQ5fk.jpg", cost=6})
+Card:new(OffensiveRetrofit,{name="Quad Laser Turrets", front="https://i.imgur.com/HKfQx0O.jpg", cost=3})
+Card:new(OffensiveRetrofit,{name="Rapid Launch Bays", front="https://i.imgur.com/PHiQ5fk.jpg", cost=4})
 Card:new(OffensiveRetrofit,{name="Reserve Hangar Deck", front="https://i.imgur.com/CuuMCQr.jpg", cost=3})
 Card:new(OffensiveRetrofit,{name="Flak Guns", front="https://i.imgur.com/pRgw74R.png", cost=3})
 
@@ -4314,21 +4314,21 @@ Card:new(Officer,Separatist,{name="Asajj Ventress", front=ASSETS_ROOT.."cards/of
 
 --generic
 Card:new(Officer,{name="Chart Officer", front="https://i.imgur.com/HVWr1Ru.jpg", cost=2})
-Card:new(Officer,{name="Damage Control Officer", front="https://i.imgur.com/jsuMjsT.jpg", cost=5})
-Card:new(Officer,{name="Defense Liaison", front="https://i.imgur.com/FqhDYBp.jpg", cost=3})
-Card:new(Officer,{name="Engineering Captain", front="https://i.imgur.com/gOLEgHZ.jpg", cost=6})
+Card:new(Officer,{name="Damage Control Officer", front="https://i.imgur.com/jsuMjsT.jpg", cost=3})
+Card:new(Officer,{name="Defense Liason", front="https://i.imgur.com/FqhDYBp.jpg", cost=1})
+Card:new(Officer,{name="Engineering Captain", front="https://i.imgur.com/gOLEgHZ.jpg", cost=4})
 Card:new(Officer,{name="Expert Shield Tech", front="https://i.imgur.com/bB1tz0h.jpg", cost=5})
 Card:new(Officer,{name="Flight Commander", front="https://i.imgur.com/IqzvNR7.jpg", cost=3})
 Card:new(Officer,{name="Hondo Ohnaka", front="https://i.imgur.com/ka4vK2h.jpg", cost=2})
 Card:new(Officer,{name="Intel Officer", front="https://i.imgur.com/VvdtHvv.jpg", cost=7})
-Card:new(Officer,{name="Navigation Officer", front="https://i.imgur.com/VKrSVRL.jpg", cost=6})
+Card:new(Officer,{name="Navigation Officer", front="https://i.imgur.com/VKrSVRL.jpg", cost=4})
 Card:new(Officer,{name="Skilled First Officer", front="https://i.imgur.com/6ipZf4i.jpg", cost=1})
 -- Card:new(Officer,{name="Strategic Adviser", front=""})
-Card:new(Officer,{name="Support Officer", front="https://i.imgur.com/fEdzGRr.jpg", cost=4})
-Card:new(Officer,{name="Tactical Expert", front="https://i.imgur.com/aAvvHM6.jpg", cost=6})
+Card:new(Officer,{name="Support Officer", front="https://i.imgur.com/fEdzGRr.jpg", cost=2})
+Card:new(Officer,{name="Tactical Expert", front="https://i.imgur.com/aAvvHM6.jpg", cost=4})
 Card:new(Officer,{name="Veteran Captain", front="https://i.imgur.com/GCmA53j.jpg", cost=3})
-Card:new(Officer,{name="Weapons Liaison", front="https://i.imgur.com/XxbObBi.jpg", cost=3})
-Card:new(Officer,{name="Wing Commander", front="https://i.imgur.com/FjHlkZC.jpg", cost=6})
+Card:new(Officer,{name="Weapons Liason", front="https://i.imgur.com/XxbObBi.jpg", cost=2})
+Card:new(Officer,{name="Wing Commander", front="https://i.imgur.com/FjHlkZC.jpg", cost=4})
 
 ----#include defs/cards/officer
 ----#include defs/cards/ordnance
@@ -4339,10 +4339,10 @@ Ordnance = {
 Card:new(Ordnance,{name="Assault Concussion Missiles", front="https://i.imgur.com/iuWMfEx.jpg", cost=5})
 Card:new(Ordnance,{name="Assault Proton Torpedoes", front="https://i.imgur.com/ZHMQWZr.jpg", cost=4})
 Card:new(Ordnance,{name="Expanded Launchers", front="https://i.imgur.com/PrpF5Sh.jpg", cost=13})
-Card:new(Ordnance,{name="External Racks", front="https://i.imgur.com/0nzMm68.jpg", cost=4})
+Card:new(Ordnance,{name="External Racks", front="https://i.imgur.com/0nzMm68.jpg", cost=5})
 Card:new(Ordnance,{name="Flechette Torpedoes", front="https://i.imgur.com/ENBODz0.jpg", cost=3})
 Card:new(Ordnance,{name="Ordnance Pods", front="https://i.imgur.com/bxshsaj.jpg", cost=3})
-Card:new(Ordnance,{name="Rapid Reload", front="https://i.imgur.com/gX8DdhB.jpg", cost=8})
+Card:new(Ordnance,{name="Rapid Reload", front="https://i.imgur.com/gX8DdhB.jpg", cost=5})
 Card:new(Ordnance,{name="Wide-Area Barrage", front="https://i.imgur.com/HA96Xmz.jpg", cost=2})
 
 ----#include defs/cards/ordnance
@@ -4351,8 +4351,8 @@ SuperWeapon = {
     type="SuperWeapon",
     back = "https://i.imgur.com/wAfp2ow.jpeg"
 }
-Card:new(SuperWeapon,Rebel,{name="Magnite Crystal Tractor Beam Array", front="https://i.imgur.com/2YpzXNT.jpg", cost=10})
-Card:new(SuperWeapon,Empire,{name="Orbital Bombardment Particle Cannons", front="https://i.imgur.com/t9VRV0n.jpg", cost=5}) --modification)
+Card:new(SuperWeapon,Rebel,{name="Magnite Crystal Tractor Beam Array", front="https://i.imgur.com/2YpzXNT.jpg", cost=5})
+Card:new(SuperWeapon,Empire,{name="Orbital Bombardment Particle Cannons", front="https://i.imgur.com/t9VRV0n.jpg", cost=10}) --modification)
 Card:new(SuperWeapon,Empire,{name="Superheavy Composite Beam Turbolasers", front="https://i.imgur.com/a7AycPb.jpg", cost=7}) --modification)
 
 ----#include defs/cards/superweapon
@@ -4367,10 +4367,10 @@ Card:new(SupportTeam,Separatist,{name="Battle Droid Reserves", front="https://i.
 --generic
 Card:new(SupportTeam,{name="Auxiliary Shields Team", front="https://i.imgur.com/SkNnm5P.jpg", cost=3})
 Card:new(SupportTeam,{name="Engine Techs", front="https://i.imgur.com/5oEvYoq.jpg", cost=8})
-Card:new(SupportTeam,{name="Engineering Team", front="https://i.imgur.com/ZmpFl4q.jpg", cost=5})
+Card:new(SupportTeam,{name="Engineering Team", front="https://i.imgur.com/ZmpFl4q.jpg", cost=3})
 Card:new(SupportTeam,{name="Fighter Coordination Team", front="https://i.imgur.com/wKI96Sb.jpg", cost=3})
 Card:new(SupportTeam,{name="Medical Team", front="https://i.imgur.com/jwf6kLG.jpg", cost=1})
-Card:new(SupportTeam,{name="Nav Team", front="https://i.imgur.com/GdjIeBj.jpg", cost=4})
+Card:new(SupportTeam,{name="Nav Team", front="https://i.imgur.com/GdjIeBj.jpg", cost=2})
 Card:new(SupportTeam,{name="Projection Experts", front="https://i.imgur.com/0hPAHTI.jpg", cost=6})
 
 ----#include defs/cards/support_team
@@ -4509,10 +4509,10 @@ Card:new(Turbolaser,{name="Dual Turbolaser Turrets", front="https://i.imgur.com/
 Card:new(Turbolaser,{name="Enhanced Armament", front="https://i.imgur.com/fixRACB.jpg", cost=10}) --modification)
 Card:new(Turbolaser,{name="H9 Turbolasers", front="https://i.imgur.com/vPAmdyc.jpg", cost=8}) --modification)
 Card:new(Turbolaser,{name="Heavy Fire Zone", front="https://i.imgur.com/f0phD19.jpg", cost=4})
-Card:new(Turbolaser,{name="Heavy Turbolaser Turrets", front="https://i.imgur.com/1BzH8yv.jpg", cost=6})
-Card:new(Turbolaser,{name="Linked Turbolaser Towers", front="https://i.imgur.com/Zxt5U1V.jpg", cost=7})
+Card:new(Turbolaser,{name="Heavy Turbolaser Turrets", front="https://i.imgur.com/1BzH8yv.jpg", cost=4})
+Card:new(Turbolaser,{name="Linked Turbolaser Towers", front="https://i.imgur.com/Zxt5U1V.jpg", cost=9})
 Card:new(Turbolaser,{name="Quad Battery Turrets", front="https://i.imgur.com/OpE4elu.jpg", cost=5}) --modification)
-Card:new(Turbolaser,{name="Quad Turbolaser Cannons", front="https://i.imgur.com/QdRydD8.jpg", cost=10}) --modification)
+Card:new(Turbolaser,{name="Quad Turbolaser Cannons", front="https://i.imgur.com/QdRydD8.jpg", cost=7}) --modification)
 Card:new(Turbolaser,{name="Slaved Turrets", front="https://i.imgur.com/J9NmUDb.jpg", cost=6}) --modification)
 Card:new(Turbolaser,{name="Spinal Armament", front="https://i.imgur.com/0eLX7ML.jpg", cost=9}) --modification)
 Card:new(Turbolaser,{name="Turbolaser Reroute Circuits", front="https://i.imgur.com/6faOpzf.jpg", cost=7})
@@ -4561,7 +4561,7 @@ Card:new(WeaponsTeam,{name="Gunnery Team", front="https://i.imgur.com/Jw2Qhgz.jp
 Card:new(WeaponsTeam,{name="Local Fire Control", front="https://i.imgur.com/OepfCdw.jpg", cost=4})
 Card:new(WeaponsTeam,{name="Ordnance Experts", front="https://i.imgur.com/3SpyXDz.jpg", cost=4})
 Card:new(WeaponsTeam,{name="Ruthless Strategists", front="https://i.imgur.com/2mDorqh.jpg", cost=4})
-Card:new(WeaponsTeam,{name="Sensor Team", front="https://i.imgur.com/pnn0pOz.jpg", cost=5})
+Card:new(WeaponsTeam,{name="Sensor Team", front="https://i.imgur.com/pnn0pOz.jpg", cost=3})
 Card:new(WeaponsTeam,{name="Veteran Gunners", front="https://i.imgur.com/mYGP8R6.jpg", cost=5})
 Card:new(WeaponsTeam,{name="Weapons Battery Techs", front="https://i.imgur.com/wQ6S57i.jpg", cost=5})
 
