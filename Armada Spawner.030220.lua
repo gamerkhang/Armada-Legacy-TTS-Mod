@@ -2626,7 +2626,7 @@ Ship:new(LargeShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN},
     shields = {4,3,3,2},
-    cost = 110,
+    cost = 105,
     aliases = {"Imperial I Star Destroyer","Imperial I", "ISD I", "ISD 1"},
     command = 3
 })
@@ -2652,7 +2652,7 @@ Ship:new(LargeShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN},
     shields = {4,3,3,2},
-    cost = 120,
+    cost = 115,
     aliases = {"Imperial II Star Destroyer","Imperial II", "ISD II", "ISD 2"},
     command = 3
 })
