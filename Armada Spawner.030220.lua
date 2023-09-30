@@ -2342,7 +2342,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
     ruler =     ASSETS_ROOT.."ships/rebel/mc80l/ruler.obj",
     maneuver = {{"I"},{"I","-"},{"I","-","I"}},
     defense_tokens = {DEF_BRACE, DEF_BRACE, DEF_REDIRECT},
-    shields = {5,2,2,2},
+    shields = {5,3,3,2},
     cost = 100,
     aliases = {},
     command = 3
@@ -2355,7 +2355,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
     ruler =     ASSETS_ROOT.."ships/rebel/mc80l/ruler.obj",
     maneuver = {{"I"},{"I","-"},{"I","-","I"}},
     defense_tokens = {DEF_BRACE, DEF_BRACE, DEF_REDIRECT},
-    shields = {5,2,2,2},
+    shields = {5,3,3,2},
     cost = 100,
     aliases = {},
     command = 3
