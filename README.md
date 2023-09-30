@@ -7,6 +7,9 @@ New upgrade cards would require images to be uploaded to imgur.com and their lin
 New ships would require new 3D models unless you feel like using existing ones as placeholder.
 
 Todo list for making changes to existing ships/upgrades:
+
 -update any ship/upgrade card values to use the ones defined in Legacy
+
 -upload upgrade card images to imgur (they source the images for those off of imgur instead of storing it in the workshop mod's assets folder for some reason?)
+
 -update any changed ship card images to the ones used in Legacy
