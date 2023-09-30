@@ -2134,7 +2134,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
     maneuver = {{"II"},{"I","II"},{"-","I","II"}},
     defense_tokens = {DEF_SCATTER, DEF_EVADE},
     shields = {1,1,1,1},
-    cost = 18,
+    cost = 21,
     aliases = {},
     command = 1
 })
@@ -2186,7 +2186,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","II"}},
     defense_tokens = {DEF_EVADE, DEF_BRACE, DEF_BRACE},
     shields = {3,1,1,2},
-    cost = 51,
+    cost = 46,
     aliases = {},
     command = 2
 })
@@ -2199,7 +2199,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","II"}},
     defense_tokens = {DEF_EVADE, DEF_BRACE, DEF_BRACE},
     shields = {3,1,1,2},
-    cost = 57,
+    cost = 52,
     aliases = {},
     command = 2
 })
@@ -2238,7 +2238,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
     maneuver = {{"II"},{"I","I"}},
     defense_tokens = {DEF_EVADE, DEF_BRACE, DEF_REDIRECT},
     shields = {3,2,2,1},
-    cost = 60,
+    cost = 56,
     aliases = {"Modified Pelta Command Ship", "Pelta Command Ship"},
     command = 2
 })
@@ -2251,7 +2251,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
     maneuver = {{"II"},{"I","I"}},
     defense_tokens = {DEF_EVADE, DEF_BRACE, DEF_REDIRECT},
     shields = {3,2,2,1},
-    cost = 56,
+    cost = 50,
     aliases = {"Modified Pelta Assault Ship", "Pelta Assault Ship"},
     command = 2
 })
@@ -2265,7 +2265,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
     maneuver = {{"II"},{"II","I"},{"I","I","-"}},
     defense_tokens = {DEF_EVADE, DEF_REDIRECT, DEF_CONTAIN},
     shields = {2,1,1,1},
-    cost = 41,
+    cost = 39,
     aliases = {},
     command = 1
 })
@@ -2292,7 +2292,7 @@ Ship:new(MediumShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_EVADE, DEF_BRACE, DEF_REDIRECT},
     shields = {4,3,3,2},
-    cost = 81,
+    cost = 75,
     aliases = {"Assault Frigate Mk.II A","Assault Frigate MkII A","Assault Frigate Mk2 A"},
     command = 3
 })
@@ -2318,7 +2318,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","I"}},
     defense_tokens = {DEF_BRACE, DEF_REDIRECT, DEF_REDIRECT, DEF_CONTAIN},
     shields = {4,4,4,3},
-    cost = 106,
+    cost = 104,
     command = 3
 })
 Ship:new(LargeShip,REBEL_SHIP,{
@@ -2330,7 +2330,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","I"}},
     defense_tokens = {DEF_BRACE, DEF_REDIRECT, DEF_REDIRECT, DEF_CONTAIN},
     shields = {4,4,4,3},
-    cost = 114,
+    cost = 110,
     aliases = {},
     command = 3
 })
@@ -2343,7 +2343,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","-"},{"I","-","I"}},
     defense_tokens = {DEF_BRACE, DEF_BRACE, DEF_REDIRECT},
     shields = {5,2,2,2},
-    cost = 96,
+    cost = 100,
     aliases = {},
     command = 3
 })
@@ -2356,7 +2356,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
     maneuver = {{"I"},{"I","-"},{"I","-","I"}},
     defense_tokens = {DEF_BRACE, DEF_BRACE, DEF_REDIRECT},
     shields = {5,2,2,2},
-    cost = 103,
+    cost = 100,
     aliases = {},
     command = 3
 })
