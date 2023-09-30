@@ -2455,7 +2455,7 @@ Ship:new(SmallShip,EMPIRE_SHIP,{
     maneuver = {{"II"},{"I","I"},{"I","I","-"}},
     defense_tokens = {DEF_SCATTER, DEF_EVADE},
     shields = {1,1,1,1},
-    cost = 28,
+    cost = 25,
     aliases = {"Gozanti Assault Carriers"},
     command = 1
 })
@@ -2468,7 +2468,7 @@ Ship:new(SmallShip,EMPIRE_SHIP,{
     maneuver = {{"II"},{"II","II"},{"-","I","I"},{"-","I","I","I"}},
     defense_tokens = {DEF_EVADE,DEF_EVADE,DEF_BRACE},
     shields = {2,2,2,2},
-    cost = 44,
+    cost = 42,
     aliases = {"Raider I","Raider I Corvette"},
     command = 1
 })
@@ -2481,7 +2481,7 @@ Ship:new(SmallShip,EMPIRE_SHIP,{
     maneuver = {{"II"},{"II","II"},{"-","I","I"},{"-","I","I","I"}},
     defense_tokens = {DEF_EVADE,DEF_EVADE,DEF_BRACE},
     shields = {2,2,2,2},
-    cost = 48,
+    cost = 44,
     aliases = {"Raider II","Raider II Corvette"},
     command = 1
 })
@@ -2507,7 +2507,7 @@ Ship:new(SmallShip,EMPIRE_SHIP,{
     maneuver = {{"II"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_EVADE,DEF_BRACE,DEF_REDIRECT},
     shields = {3,2,2,1},
-    cost = 62,
+    cost = 59,
     aliases = {"Gladiator II","Gladiator II Star Destroyer"},
     command = 2
 })
@@ -2533,7 +2533,7 @@ Ship:new(SmallShip,EMPIRE_SHIP,{
     maneuver = {{"II"},{"-","II"},{"-","-","II"}},
     defense_tokens = {DEF_EVADE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN},
     shields = {2,2,2,2},
-    cost = 59,
+    cost = 57,
     aliases = {"Arquitens Command Cruiser"},
     command = 2
     --maneuver = "II|-,II|-,-,II"
@@ -2547,7 +2547,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"-","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT},
     shields = {3,3,3,1},
-    cost = 73,
+    cost = 68,
     aliases = {"Victory I Star Destroyer","Victory I", "VSD I", "VSD 1"},
     command = 3
 })
@@ -2560,7 +2560,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"-","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT},
     shields = {3,3,3,1},
-    cost = 85,
+    cost = 75,
     aliases = {"Victory II Star Destroyer","Victory II", "VSD II", "VSD 2"},
     command = 3
 })
@@ -2573,7 +2573,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_CONTAIN,DEF_CONTAIN},
     shields = {3,2,2,2},
-    cost = 90,
+    cost = 85,
     aliases = {"Interdictor-class Suppression Refit"},
     command = 2
 })
@@ -2586,7 +2586,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_CONTAIN,DEF_CONTAIN},
     shields = {3,2,2,2},
-    cost = 93,
+    cost = 90,
     aliases = {"Interdictor-class Combat Refit"},
     command = 2
 })
@@ -2612,7 +2612,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
     maneuver = {{"II"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT},
     shields = {2,2,2,1},
-    cost = 61,
+    cost = 59,
     aliases = {"Quasar Fire II Cruiser-Carrier","Quasar Fire II", "Quasar II"},
     command = 2
 })
@@ -2626,7 +2626,7 @@ Ship:new(LargeShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN},
     shields = {4,3,3,2},
-    cost = 110,
+    cost = 105,
     aliases = {"Imperial I Star Destroyer","Imperial I", "ISD I", "ISD 1"},
     command = 3
 })
@@ -2652,7 +2652,7 @@ Ship:new(LargeShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"},{"-","I","I"}},
     defense_tokens = {DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN},
     shields = {4,3,3,2},
-    cost = 120,
+    cost = 115,
     aliases = {"Imperial II Star Destroyer","Imperial II", "ISD II", "ISD 2"},
     command = 3
 })
@@ -2679,7 +2679,7 @@ Ship:new(HugeShip,EMPIRE_SHIP,{
     maneuver = {{"-"},{"-","-"}},
     defense_tokens = {DEF_BRACE,DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN,DEF_CONTAIN},
     shields = {6,3,3,2,3,3},
-    cost = 220,
+    cost = 195,
     aliases = {"SSD Command Prototype","Command Prototype"},
     command = 4,
     hull = 22
@@ -2693,7 +2693,7 @@ Ship:new(HugeShip,EMPIRE_SHIP,{
     maneuver = {{"-"},{"-","-"}},
     defense_tokens = {DEF_BRACE,DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN,DEF_CONTAIN},
     shields = {6,3,3,2,3,3},
-    cost = 250,
+    cost = 235,
     aliases = {"SSD Assault Prototype","Assault Prototype"},
     command = 4,
     hull = 22
@@ -2707,7 +2707,7 @@ Ship:new(HugeShip,EMPIRE_SHIP,{
     maneuver = {{"-"},{"-","-"}},
     defense_tokens = {DEF_BRACE,DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN,DEF_CONTAIN},
     shields = {6,5,5,3,5,5},
-    cost = 381,
+    cost = 340,
     aliases = {"Executor I Star Dreadnought", "Executor I SSD","Executor I"},
     command = 4,
     hull = 33
@@ -2721,7 +2721,7 @@ Ship:new(HugeShip,EMPIRE_SHIP,{
     maneuver = {{"-"},{"-","-"}},
     defense_tokens = {DEF_BRACE,DEF_BRACE,DEF_REDIRECT,DEF_REDIRECT,DEF_CONTAIN,DEF_CONTAIN},
     shields = {6,5,5,3,5,5},
-    cost = 411,
+    cost = 380,
     aliases = {"Executor II Star Dreadnought", "Executor II SSD","Executor II"},
     command = 4,
     hull = 33
@@ -2735,7 +2735,7 @@ Ship:new(LargeShip,EMPIRE_SHIP,{
     maneuver = {{"I"},{"I","I"},{"I","I",'-'}},
     defense_tokens = {DEF_BRACE, DEF_REDIRECT, DEF_SALVO},
     shields = {5,2,2,1},
-    cost = 96,
+    cost = 106,
     aliases = {"Onager Testbed"},
     command = 3
 })
