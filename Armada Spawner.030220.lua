@@ -2179,7 +2179,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
 })
 Ship:new(SmallShip,REBEL_SHIP,{
 	name = "Nebulon-B Support Refit",
-    front =     ASSETS_ROOT.."ships/rebel/nebulon/support_card.jpg",
+    front =     "https://i.imgur.com/C0yCAVx.png",
     mesh =      ASSETS_ROOT.."ships/rebel/nebulon/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/nebulon/support_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/nebulon/ruler.obj",
@@ -2192,7 +2192,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
 })
 Ship:new(SmallShip,REBEL_SHIP,{
 	name = "Nebulon-B Escort Frigate",
-    front =     ASSETS_ROOT.."ships/rebel/nebulon/escort_card.jpg",
+    front =     "https://i.imgur.com/2z3nsmP.png",
     mesh =      ASSETS_ROOT.."ships/rebel/nebulon/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/nebulon/escort_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/nebulon/ruler.obj",
@@ -2311,7 +2311,7 @@ Ship:new(MediumShip,REBEL_SHIP,{
 })
 Ship:new(LargeShip,REBEL_SHIP,{
 	name = "MC80 Command Cruiser",
-    front =     ASSETS_ROOT.."ships/rebel/mc80/command_card.jpg",
+    front =     "https://i.imgur.com/TPKiUQV.jpg",
     mesh =      ASSETS_ROOT.."ships/rebel/mc80/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/mc80/command_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/mc80/ruler.obj",
@@ -2336,7 +2336,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
 })
 Ship:new(LargeShip,REBEL_SHIP,{
 	name = "MC80 Star Cruiser",
-    front =     ASSETS_ROOT.."ships/rebel/mc80l/star_card.jpg",
+    front =     "https://i.imgur.com/ZuYDdmF.png",
     mesh =      ASSETS_ROOT.."ships/rebel/mc80l/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/mc80l/star_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/mc80l/ruler.obj",
@@ -2349,7 +2349,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
 })
 Ship:new(LargeShip,REBEL_SHIP,{
 	name = "MC80 Battle Cruiser",
-    front =     ASSETS_ROOT.."ships/rebel/mc80l/battle_card.jpg",
+    front =     "https://i.imgur.com/pvPNQPK.png",
     mesh =      ASSETS_ROOT.."ships/rebel/mc80l/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/mc80l/battle_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/mc80l/ruler.obj",
@@ -2579,7 +2579,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
 })
 Ship:new(MediumShip,EMPIRE_SHIP,{
 	name = "Interdictor Combat Refit",
-    front =     ASSETS_ROOT.."ships/empire/interdictor/combat_card.jpg",
+    front =     "https://i.imgur.com/3Xy2GsB.jpg",
     mesh =      ASSETS_ROOT.."ships/empire/interdictor/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/empire/interdictor/combat_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/empire/interdictor/ruler.obj",
@@ -2889,7 +2889,7 @@ Squadron:new(xwing, REBEL_SQUAD, {
 })
 Squadron:new(xwing, REBEL_SQUAD, {
 	name = "Luke Skywalker",
-    front =     ASSETS_ROOT.."squadrons/rebel/xwing/luke_card.jpg",
+    front =     "https://i.imgur.com/pRmt9dQ.png",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
     cost = 22
@@ -3266,7 +3266,7 @@ Squadron:new(adv, EMPIRE_SQUAD, {
 })
 Squadron:new(adv, EMPIRE_SQUAD, {
 	name = "Darth Vader",
-    front =     ASSETS_ROOT.."squadrons/empire/adv/vader_card.jpg",
+    front =     "https://i.imgur.com/MnwxSlA.png",
     diffuse =   ASSETS_ROOT.."squadrons/empire/adv/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
     cost = 25,
@@ -4450,7 +4450,7 @@ Card:new(Title,Empire,{name="Cataclysm", front="https://i.imgur.com/BJwwHvW.jpg"
 Card:new(Title,Empire,{name="Rakehell", front="https://i.imgur.com/R3NVdce.jpg", cost=4})
 Card:new(Title,Empire,{name="Sunder", front="https://i.imgur.com/qs97P5O.jpg", cost=10})
 
-Card:new(Title,Empire,{name="Avenger", front="https://i.imgur.com/UOIKPqu.jpg", cost=5})
+Card:new(Title,Empire,{name="Avenger", front="https://i.imgur.com/l9eL8Vh.jpg", cost=5})
 Card:new(Title,Empire,{name="Chimaera", front="https://i.imgur.com/o5AtxcG.jpg", cost=4})
 Card:new(Title,Empire,{name="Devastator", front="https://i.imgur.com/nKieVmI.jpg", cost=10})
 Card:new(Title,Empire,{name="Relentless", front="https://i.imgur.com/AT9rKe4.jpg", cost=3})
