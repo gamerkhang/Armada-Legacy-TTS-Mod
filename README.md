@@ -7,9 +7,18 @@ New upgrade cards would require images to be uploaded to imgur.com and their lin
 New ships would require new 3D models unless you feel like using existing ones as placeholder.
 
 Todo list:
+- [ ] need images for existing ship bases that got updated (eg. MC80s)
+- [ ] images for cards that got updated point values (this is many many cards.... for now just trust what your fleet spawner lists for you)
+- [ ] cards and models for entirely new ships, squadrons, and upgrades
 
--need images for existing ship bases that got updated (eg. MC80s)
 
--images for cards that got updated point values (this is many many cards.... for now just trust what your fleet spawner lists for you)
+Checklist of items that are from Armada Legacy file folders
 
--cards and models for entirely new ships, squadrons, and upgrades
+- [ ] Ship bases for updated ships
+- [ ] Arquitens Light Cruiser Expansion
+- [ ] Assault Frigate Mark I Expansion
+- [ ] Dreadnaught Heavy Cruiser Expansion
+- [ ] Hotshots and Aces Expansion
+- [ ] Republic Fighter Pack II
+- [ ] Separatists Fighter Pack II
+- [ ] Trident Assault Ship Expansion
