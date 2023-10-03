@@ -3543,7 +3543,33 @@ Ship:new(SmallShip,REPUBLIC_SHIP,{
 	aliases = {"Consular Charger c70","Charger c70"},
     command = 1
 })
-
+Ship:new(SmallShip,REPUBLIC_SHIP,{
+	name = "Arquitens-class Light Cruiser",
+    front =     ASSETS_ROOT.."ships/empire/arquitens/light_card.png",
+    mesh =      ASSETS_ROOT.."ships/empire/arquitens/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/empire/arquitens/light_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/empire/arquitens/ruler.obj",
+    maneuver = {{"II"},{"-","II"},{"-","-","II"}},
+    defense_tokens = {DEF_EVADE,DEF_REDIRECT,DEF_CONTAIN,DEF_SALVO},
+    shields = {2,2,2,2},
+    cost = 58,
+    aliases = {"Arquitens Light Cruiser (rep)"},
+    command = 2
+})
+Ship:new(SmallShip,REPUBLIC_SHIP,{
+	name = "Arquitens-class Escort Cruiser",
+    front =     ASSETS_ROOT.."ships/empire/arquitens/escort_card.png",
+    mesh =      ASSETS_ROOT.."ships/empire/arquitens/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/empire/arquitens/escort_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/empire/arquitens/ruler.obj",
+    maneuver = {{"II"},{"-","II"},{"-","-","II"}},
+    defense_tokens = {DEF_EVADE,DEF_REDIRECT,DEF_CONTAIN,DEF_SALVO},
+    shields = {2,2,2,2},
+    cost = 62,
+    aliases = {"Arquitens Escort Cruiser"},
+    command = 2
+    --maneuver = "II|-,II|-,-,II"
+})
 Ship:new(MediumShip,REPUBLIC_SHIP,{
 	name = "Acclamator I-class Assault Ship",
     front =     ASSETS_ROOT.."ships/republic/acclamator/I_card.jpg",
@@ -4121,6 +4147,7 @@ Card:new(Commander,Republic,{name="Admiral Tarkin",  front="https://i.imgur.com/
 Card:new(Commander,Republic,{name="Admiral Yularen", front="https://i.imgur.com/QloblZJ.jpeg", cost=24})
 Card:new(Commander,Republic,{name="Plo Koon", front="https://i.imgur.com/RY01HsT.jpg", cost=26})
 Card:new(Commander,Republic,{name="Anakin Skywalker",  front=ASSETS_ROOT.."cards/commanders/anakin_skywalker.jpg", cost=29})
+Card:new(Commander,Republic,{name="Admiral Coburn", front="https://i.imgur.com/YCr5Tae.png", cost=32})
 
 Separatist = {
     factions={"Separatist"}
@@ -4300,6 +4327,7 @@ Card:new(Officer,Republic,{name="Adi Gallia", front="https://i.imgur.com/NtfCKwG
 Card:new(Officer,Republic,{name="Clone Captain Silver", front="https://i.imgur.com/VzHNQTY.jpg", cost=4})
 Card:new(Officer,Republic,{name="Clone Cmdr. Wolffe", front="https://i.imgur.com/pb3QjZp.jpg", cost=6})
 Card:new(Officer,Republic,{name="Ahsoka Tano", front="https://i.imgur.com/SVAWnrZ.jpeg", cost=6})
+Card:new(Officer,Republic,{name="Aayla Secura", front="https://i.imgur.com/Az1JA1G.png", cost=5})
 
 --separatist
 Card:new(Officer,Separatist,{name="Rune Haako", front="https://i.imgur.com/aEgMSwp.jpg", cost=4})
@@ -4469,6 +4497,9 @@ Card:new(Title,Republic,{name="Swift Return", front="https://i.imgur.com/lVSb7xQ
 
 Card:new(Title,Republic,{name="Implacable", front="https://i.imgur.com/Y8uSW2V.jpeg", cost=4})
 Card:new(Title,Republic,{name="Nevoota Bee", front="https://i.imgur.com/bBFNBzc.jpeg", cost=5})
+
+Card:new(Title,Republic,{name="Stellar Rise", front="https://i.imgur.com/tphaUJr.png", cost=3})
+Card:new(Title,Republic,{name="Surrogator", front="https://i.imgur.com/tphaUJr.png", cost=5})
 
 --separatist
 Card:new(Title,Separatist,{name="Beast of Burden", front="https://i.imgur.com/0dOnlMq.jpeg", cost=6})
