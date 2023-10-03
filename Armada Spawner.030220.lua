@@ -1538,9 +1538,9 @@ MAPS["doomed_station"] = "https://i.imgur.com/fFKS59s.jpg"
 MAPS["italia"] = "https://i.imgur.com/ZH3BOIY.jpg"
 MAPS["task_force"] = "https://i.imgur.com/GccejV5.jpeg"
 MAPS["urban"] = "https://i.imgur.com/ml1Mwgy.jpeg"
-MAPS["rob_shield"] = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/tables/rob_shield.jpg'
-MAPS["rob_frozen"] = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/tables/rob_frozen.jpg'
-MAPS["rob_dockyard"] = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/tables/rob_dockyard.jpg'
+MAPS["rob_shield"] = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/tables/rob_shield.jpg'
+MAPS["rob_frozen"] = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/tables/rob_frozen.jpg'
+MAPS["rob_dockyard"] = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/tables/rob_dockyard.jpg'
 function onClick_select_map(player, _, idValue)
     customUrl = MAPS[idValue]
     if customUrl~=nil then
@@ -1563,7 +1563,7 @@ end
 
 ----#include ui/fleetSpawner
 
-ASSETS_ROOT = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/'
+ASSETS_ROOT = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/'
 
 DEF_BRACE = '79d121'
 DEF_CONTAIN = '68abfc'
@@ -2179,7 +2179,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
 })
 Ship:new(SmallShip,REBEL_SHIP,{
 	name = "Nebulon-B Support Refit",
-    front =     "https://i.imgur.com/C0yCAVx.png",
+    front =     ASSETS_ROOT.."ships/rebel/nebulon/support_card.png",
     mesh =      ASSETS_ROOT.."ships/rebel/nebulon/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/nebulon/support_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/nebulon/ruler.obj",
@@ -2192,7 +2192,7 @@ Ship:new(SmallShip,REBEL_SHIP,{
 })
 Ship:new(SmallShip,REBEL_SHIP,{
 	name = "Nebulon-B Escort Frigate",
-    front =     "https://i.imgur.com/2z3nsmP.png",
+    front =     ASSETS_ROOT.."ships/rebel/nebulon/escort_card.png",
     mesh =      ASSETS_ROOT.."ships/rebel/nebulon/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/nebulon/escort_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/nebulon/ruler.obj",
@@ -2311,7 +2311,7 @@ Ship:new(MediumShip,REBEL_SHIP,{
 })
 Ship:new(LargeShip,REBEL_SHIP,{
 	name = "MC80 Command Cruiser",
-    front =     "https://i.imgur.com/TPKiUQV.jpg",
+    front =     ASSETS_ROOT.."ships/rebel/mc80/command_card.jpg",
     mesh =      ASSETS_ROOT.."ships/rebel/mc80/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/mc80/command_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/mc80/ruler.obj",
@@ -2336,7 +2336,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
 })
 Ship:new(LargeShip,REBEL_SHIP,{
 	name = "MC80 Star Cruiser",
-    front =     "https://i.imgur.com/ZuYDdmF.png",
+    front =     ASSETS_ROOT.."ships/rebel/mc80l/star_card.png",
     mesh =      ASSETS_ROOT.."ships/rebel/mc80l/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/mc80l/star_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/mc80l/ruler.obj",
@@ -2349,7 +2349,7 @@ Ship:new(LargeShip,REBEL_SHIP,{
 })
 Ship:new(LargeShip,REBEL_SHIP,{
 	name = "MC80 Battle Cruiser",
-    front =     "https://i.imgur.com/pvPNQPK.png",
+    front =     ASSETS_ROOT.."ships/rebel/mc80l/battle_card.png",
     mesh =      ASSETS_ROOT.."ships/rebel/mc80l/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/mc80l/battle_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/rebel/mc80l/ruler.obj",
@@ -2579,7 +2579,7 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
 })
 Ship:new(MediumShip,EMPIRE_SHIP,{
 	name = "Interdictor Combat Refit",
-    front =     "https://i.imgur.com/3Xy2GsB.jpg",
+    front =     ASSETS_ROOT.."ships/empire/interdictor/combat_card.jpg",
     mesh =      ASSETS_ROOT.."ships/empire/interdictor/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/empire/interdictor/combat_diffuse.jpg",
     ruler =     ASSETS_ROOT.."ships/empire/interdictor/ruler.obj",
@@ -2889,7 +2889,7 @@ Squadron:new(xwing, REBEL_SQUAD, {
 })
 Squadron:new(xwing, REBEL_SQUAD, {
 	name = "Luke Skywalker",
-    front =     "https://i.imgur.com/pRmt9dQ.png",
+    front =     ASSETS_ROOT.."squadrons/rebel/xwing/luke_card.png",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
     cost = 22
@@ -3266,7 +3266,7 @@ Squadron:new(adv, EMPIRE_SQUAD, {
 })
 Squadron:new(adv, EMPIRE_SQUAD, {
 	name = "Darth Vader",
-    front =     "https://i.imgur.com/MnwxSlA.png",
+    front =     ASSETS_ROOT.."squadrons/empire/adv/vader_card.png",
     diffuse =   ASSETS_ROOT.."squadrons/empire/adv/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
     cost = 25,
