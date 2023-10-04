@@ -1,5 +1,5 @@
 ----#include TTS_Armada/src/Magic Ruler
-ASSETS_ROOT = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/'
+ASSETS_ROOT = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/'
 rulers = {}
 cmds = {}
 last_rot = 0

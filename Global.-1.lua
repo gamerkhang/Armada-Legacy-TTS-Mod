@@ -1,6 +1,6 @@
 ----#include TTS_armada/src/Global
 --italia table: https://i.imgur.com/ZH3BOIY.jpg
-ASSETS_ROOT = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/'
+ASSETS_ROOT = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/'
 local SQUAD_MOVE_RULER = 1
 local SQUAD_ATTACK_RULER = 2
 local SQUAD_ATTACK_CLOSE_RULER = 3
@@ -227,7 +227,7 @@ end
 -- squadron cardboard = 1.219
 
 
-ASSETS_ROOT = 'https://raw.githubusercontent.com/valadian/TabletopSimulatorIncludeDir/master/TTS_armada/assets/'
+ASSETS_ROOT = 'https://raw.githubusercontent.com/gamerkhang/Armada-Legacy-TTSIncludeDir/master/assets/'
 Obstacle = {
     name = "",
     collider = "",
