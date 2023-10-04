@@ -3545,10 +3545,10 @@ Ship:new(SmallShip,REPUBLIC_SHIP,{
 })
 Ship:new(SmallShip,REPUBLIC_SHIP,{
 	name = "Arquitens-class Light Cruiser",
-    front =     ASSETS_ROOT.."ships/empire/arquitens/light_card.png",
-    mesh =      ASSETS_ROOT.."ships/empire/arquitens/mesh.obj",
-    diffuse =   ASSETS_ROOT.."ships/empire/arquitens/light_diffuse.jpg",
-    ruler =     ASSETS_ROOT.."ships/empire/arquitens/ruler.obj",
+    front =     ASSETS_ROOT.."ships/republic/arquitens/light_card.png",
+    mesh =      ASSETS_ROOT.."ships/republic/arquitens/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/republic/arquitens/light_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/republic/arquitens/ruler.obj",
     maneuver = {{"II"},{"-","II"},{"-","-","II"}},
     defense_tokens = {DEF_EVADE,DEF_REDIRECT,DEF_CONTAIN,DEF_SALVO},
     shields = {2,2,2,2},
@@ -3558,10 +3558,10 @@ Ship:new(SmallShip,REPUBLIC_SHIP,{
 })
 Ship:new(SmallShip,REPUBLIC_SHIP,{
 	name = "Arquitens-class Escort Cruiser",
-    front =     ASSETS_ROOT.."ships/empire/arquitens/escort_card.png",
-    mesh =      ASSETS_ROOT.."ships/empire/arquitens/mesh.obj",
-    diffuse =   ASSETS_ROOT.."ships/empire/arquitens/escort_diffuse.jpg",
-    ruler =     ASSETS_ROOT.."ships/empire/arquitens/ruler.obj",
+    front =     ASSETS_ROOT.."ships/republic/arquitens/escort_card.png",
+    mesh =      ASSETS_ROOT.."ships/republic/arquitens/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/republic/arquitens/escort_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/republic/arquitens/ruler.obj",
     maneuver = {{"II"},{"-","II"},{"-","-","II"}},
     defense_tokens = {DEF_EVADE,DEF_REDIRECT,DEF_CONTAIN,DEF_SALVO},
     shields = {2,2,2,2},
