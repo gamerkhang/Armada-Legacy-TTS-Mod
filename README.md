@@ -15,7 +15,8 @@ Todo list:
 Checklist of items that are from Armada Legacy file folders
 
 - [ ] Ship bases for updated ships
-- [ ] Arquitens Light Cruiser Expansion
+- [x] Arquitens Light Cruiser Expansion
+  - [ ] this is still using old models bases for the arquitens, but at least it's playable
 - [ ] Assault Frigate Mark I Expansion
 - [ ] Dreadnaught Heavy Cruiser Expansion
 - [ ] Hotshots and Aces Expansion
