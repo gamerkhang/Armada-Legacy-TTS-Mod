@@ -2297,7 +2297,7 @@ Ship:new(MediumShip,REBEL_SHIP,{
     command = 2
 })
 Ship:new(MediumShip,REBEL_SHIP,{
-	name = "Assault Frigate Mark II B",
+	name = "Assault Frigate Mark I B",
     front =     ASSETS_ROOT.."ships/rebel/afm1/b_card.jpg",
     mesh =      ASSETS_ROOT.."ships/rebel/afm1/mesh.obj",
     diffuse =   ASSETS_ROOT.."ships/rebel/afm1/b_diffuse.jpg",
