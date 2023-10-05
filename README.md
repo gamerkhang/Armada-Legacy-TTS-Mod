@@ -23,3 +23,6 @@ Checklist of items that are from Armada Legacy file folders
     - [x] Hotshots and Aces Expansion
     - [x] Republic Fighter Pack II
     - [x] Separatists Fighter Pack II
+
+Known bugs:
+-Both the Anakin ETA-2 squadron and Anakin Delta squadron are 24 points, which causes conflict in fleet spawner parser as both use "Anakin Skywalker (24)". Temporary workaround was to make the ETA-2 version 23 points.
