@@ -4011,12 +4011,13 @@ Squadron:new(eta, REPUBLIC_SQUAD, {
     aliases = {'Aayla Secura (ETA-2)', "Aayla Secura (ETA-2 Actis)"}
 })
 Squadron:new(eta, REPUBLIC_SQUAD, {
-	name = "Anakin Skywalker",
+    -- This is a temporary workaround to fix conflicting naming with Anakin Delta which also is 24 points
+	name = "Anakin Skywalker (ETA-2)",
     front =     ASSETS_ROOT.."squadrons/republic/eta/anakin_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/republic/eta/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 23,
-    aliases = {'Anakin Skywalker (eta)', 'Anakin Skywalker (ETA-2)', "Anakin Skywalker (ETA-2 Actis)"}
+    cost = 24,
+    aliases = {'Anakin Skywalker (eta)', "Anakin Skywalker (ETA-2 Actis)"}
 })
 Squadron:new(eta, REPUBLIC_SQUAD, {
 	name = "Obi-Wan Kenobi",
