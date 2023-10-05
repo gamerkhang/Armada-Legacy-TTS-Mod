@@ -13,12 +13,13 @@ Todo list:
 - [ ] re-tint bases for placeholder ships so that you can identify that they are from the faction you are playing as more easily
 
 Checklist of items that are from Armada Legacy file folders
-
-- [ ] Ship bases/models for updated ships
-  - [x] Arquitens Light Cruiser Expansion
-  - [x] Assault Frigate Mark I Expansion
-  - [x] Dreadnaught Heavy Cruiser Expansion
-  - [x] Trident Assault Ship Expansion
-- [ ] Hotshots and Aces Expansion
-- [ ] Republic Fighter Pack II
-- [ ] Separatists Fighter Pack II
+- [x] Wave 1 - Placeholder version
+  - [ ] Ship bases/models for updated ships
+    - [x] Arquitens Light Cruiser Expansion
+    - [x] Assault Frigate Mark I Expansion
+    - [x] Dreadnaught Heavy Cruiser Expansion
+    - [x] Trident Assault Ship Expansion
+  - [ ] Squadron bases/models for new squadrons
+    - [x] Hotshots and Aces Expansion
+    - [x] Republic Fighter Pack II
+    - [x] Separatists Fighter Pack II
