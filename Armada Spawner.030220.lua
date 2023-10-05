@@ -3760,6 +3760,34 @@ Ship:new(SmallShip,SEPARATIST_SHIP,{
 	aliases = {"Hardcell Battle Refit"},
     command = 1
 })
+Ship:new(SmallShip,SEPARATIST_SHIP,{
+	name = "Trident-Class Assault Carrier",
+    front =     ASSETS_ROOT.."ships/separatist/trident/carrier_card.png",
+    -- back =      ASSETS_ROOT.."ships/separatist/hardcell/battle_card_orig_back.jpg",
+    mesh =      ASSETS_ROOT.."ships/separatist/trident/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/separatist/trident/carrier_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/separatist/trident/ruler.obj",
+    maneuver = {{"II"},{"I","I"},{"-","II","I"},{"I","-","II","-"}},
+    defense_tokens = {DEF_EVADE,DEF_EVADE,DEF_REDIRECT,DEF_SALVO},
+    shields = {2,1,1,1},
+    cost = 45,
+	aliases = {"Trident Assault Carrier"},
+    command = 1
+})
+Ship:new(SmallShip,SEPARATIST_SHIP,{
+	name = "Trident-Class Assault Ship",
+    front =     ASSETS_ROOT.."ships/separatist/trident/ship_card.png",
+    -- back =      ASSETS_ROOT.."ships/separatist/hardcell/battle_card_orig_back.jpg",
+    mesh =      ASSETS_ROOT.."ships/separatist/trident/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/separatist/trident/ship_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/separatist/trident/ruler.obj",
+    maneuver = {{"II"},{"I","I"},{"-","II","I"},{"I","-","II","-"}},
+    defense_tokens = {DEF_EVADE,DEF_EVADE,DEF_REDIRECT,DEF_SALVO},
+    shields = {2,1,1,1},
+    cost = 42,
+	aliases = {"Trident Assault Ship"},
+    command = 1
+})
 
 Ship:new(MediumShip,SEPARATIST_SHIP,{
 	name = "Munificent-class Comms Frigate",
@@ -4213,6 +4241,7 @@ Card:new(Commander,Separatist,{name="General Grievous",  front="https://i.imgur.
 Card:new(Commander,Separatist,{name="Admiral Trench", front="https://i.imgur.com/eOaryOm.png", cost=36})
 Card:new(Commander,Separatist,{name="Mar Tuuk", front="https://i.imgur.com/POTMBXQ.png", cost=28})
 Card:new(Commander,Separatist,{name="TF-1726", front="https://i.imgur.com/aptrDok.png", cost=26})
+Card:new(Commander,Separatist,{name="Asajj Ventress", front="https://i.imgur.com/ckIvlTT.png", cost=22})
 
 ----#include defs/cards/commanders
 ----#include defs/cards/defensive_retrofit
@@ -4306,6 +4335,7 @@ Card:new(OffensiveRetrofit,Republic,{name="SPHA-T", front="https://i.imgur.com/u
 --separatist
 Card:new(OffensiveRetrofit,Separatist,{name="Hyperwave Signal Boost", front="https://i.imgur.com/NJQuMpr.jpeg", cost=3})
 Card:new(OffensiveRetrofit,Separatist,{name="B2 Rocket Troopers", front="https://i.imgur.com/cK6wUox.png", cost=7})
+Card:new(OffensiveRetrofit,Separatist,{name="Drill Beak", front="https://i.imgur.com/R3As1st.png", cost=6})
 
 --generic
 Card:new(OffensiveRetrofit,{name="Advanced Transponder Net", front="https://i.imgur.com/vm6HKV1.jpg", cost=3}) --modification)
@@ -4395,6 +4425,7 @@ Card:new(Officer,Separatist,{name="Tikkes", front="https://i.imgur.com/l7G05tI.p
 Card:new(Officer,Separatist,{name="San Hill", front="https://i.imgur.com/AcVqv40.png", cost=3})
 Card:new(Officer,Separatist,{name="Passel Argente", front="https://i.imgur.com/fVSYbCJ.png", cost=6})
 Card:new(Officer,Separatist,{name="Asajj Ventress", front=ASSETS_ROOT.."cards/officers/asajj_ventress.jpg", cost=4})
+Card:new(Officer,Separatist,{name="Riff Tamson", front="https://i.imgur.com/r41nzdh.png", cost=5})
 
 --generic
 Card:new(Officer,{name="Chart Officer", front="https://i.imgur.com/HVWr1Ru.jpg", cost=2})
@@ -4579,6 +4610,9 @@ Card:new(Title,Separatist,{name="Lucid Voice", front="https://i.imgur.com/b5i7cI
 Card:new(Title,Separatist,{name="Patriot Fist", front="https://i.imgur.com/032w54v.png", cost=6})
 Card:new(Title,Separatist,{name="Nova Defiant", front="https://i.imgur.com/baLcwQJ.png", cost=4})
 Card:new(Title,Separatist,{name="Gilded Aegis", front="https://i.imgur.com/wbFFUaq.png", cost=5})
+
+Card:new(Title,Separatist,{name="Grappler", front="https://i.imgur.com/jzoBVge.png", cost=6})
+Card:new(Title,Separatist,{name="Neimoidian Grasp", front="https://i.imgur.com/XRYWCIY.png", cost=5})
 
 Card:new(Title,Republic,{name="TB-73", front="https://i.imgur.com/IONCQi6.png", cost=5})
 Card:new(Title,Republic,{name="FB-88", front="https://i.imgur.com/l5LNFSR.png", cost=4})
