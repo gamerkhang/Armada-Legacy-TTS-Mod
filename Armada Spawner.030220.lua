@@ -2642,6 +2642,32 @@ Ship:new(MediumShip,EMPIRE_SHIP,{
     aliases = {"Quasar Fire II Cruiser-Carrier","Quasar Fire II", "Quasar II"},
     command = 2
 })
+Ship:new(MediumShip,EMPIRE_SHIP,{
+	name = "Dreadnaught-Class Imperial Refit",
+    front =     ASSETS_ROOT.."ships/empire/dreadnaught/imp_card.png",
+    mesh =      ASSETS_ROOT.."ships/empire/dreadnaught/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/empire/dreadnaught/imp_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/empire/dreadnaught/ruler.obj",
+    maneuver = {{"I"},{"I","I"}},
+    defense_tokens = {DEF_BRACE,DEF_BRACE,DEF_REDIRECT},
+    shields = {3,3,3,1},
+    cost = 64,
+    aliases = {"Dreadnaught Imperial Refit","Dreadnaught-Class Imperial", "Dreadnaught Imperial"},
+    command = 3
+})
+Ship:new(MediumShip,EMPIRE_SHIP,{
+	name = "Dreadnaught-Class Katana Refit",
+    front =     ASSETS_ROOT.."ships/empire/dreadnaught/katana_card.png",
+    mesh =      ASSETS_ROOT.."ships/empire/dreadnaught/mesh.obj",
+    diffuse =   ASSETS_ROOT.."ships/empire/dreadnaught/katana_diffuse.jpg",
+    ruler =     ASSETS_ROOT.."ships/empire/dreadnaught/ruler.obj",
+    maneuver = {{"I"},{"I","I"}},
+    defense_tokens = {DEF_BRACE,DEF_BRACE,DEF_REDIRECT},
+    shields = {3,3,3,1},
+    cost = 62,
+    aliases = {"Dreadnaught Katana Refit","Dreadnaught-Class Katana", "Dreadnaught Katana"},
+    command = 3
+})
 
 Ship:new(LargeShip,EMPIRE_SHIP,{
 	name = "Imperial I-class Star Destroyer",
@@ -4162,6 +4188,7 @@ Card:new(Commander,Empire,{name="General Tagge",  front="http://i.imgur.com/LduH
 Card:new(Commander,Empire,{name="Grand Admiral Thrawn",  front="http://i.imgur.com/FSpE1gl.jpg", cost=30})
 Card:new(Commander,Empire,{name="Grand Moff Tarkin",  front="http://i.imgur.com/OxvHWmA.jpg", cost=25})
 Card:new(Commander,Empire,{name="Moff Jerjerrod",  front="http://i.imgur.com/qZAVH6a.jpg", cost=28})
+Card:new(Commander,Empire,{name="Gilad Pellaeon",  front="https://i.imgur.com/UY0sx5c.png", cost=20})
 
 Republic = {
     factions={"Republic"}
@@ -4346,6 +4373,7 @@ Card:new(Officer,Empire,{name="Taskmaster Grint", front="https://i.imgur.com/9U4
 Card:new(Officer,Empire,{name="The Grand Inquisitor", front="https://i.imgur.com/xzcI49o.jpg", cost=4})
 Card:new(Officer,Empire,{name="Wulff Yularen", front="https://i.imgur.com/dvWsOm8.jpg", cost=7})
 Card:new(Officer,Empire,{name="Governor Pryce", front=ASSETS_ROOT.."cards/officers/governor_pryce.jpg", cost=7})
+Card:new(Officer,Empire,{name="Joruus C'baoth", front="https://i.imgur.com/fM0fsKl.png", cost=7})
 
 --republic
 Card:new(Officer,Republic,{name="Clone Captain Zak", front="https://i.imgur.com/A1FePh3.jpeg", cost=5})
@@ -4523,6 +4551,10 @@ Card:new(Title,Empire,{name="Eclipse", front="https://i.imgur.com/Vnmp8CR.jpg", 
 Card:new(Title,Empire,{name="Executor", front="https://i.imgur.com/OGaToRQ.jpg", cost=2})
 Card:new(Title,Empire,{name="Ravager", front="https://i.imgur.com/AcTzTTY.jpg", cost=4})
 
+Card:new(Title,Empire,{name="Abrogator", front="https://i.imgur.com/4fLP8I1.png", cost=5})
+Card:new(Title,Empire,{name="Katana Fleet Dreadnaught", front="https://i.imgur.com/7qOwU8F.png", cost=2})
+Card:new(Title,Empire,{name="Vendetta", front="https://i.imgur.com/iKZnPYN.png", cost=8})
+
 --republic
 Card:new(Title,Republic,{name="Radiant VII", front="https://i.imgur.com/kTBiAsS.jpg", cost=1})
 Card:new(Title,Republic,{name="Swift Return", front="https://i.imgur.com/lVSb7xQ.jpeg", cost=3})
@@ -4628,6 +4660,7 @@ Card:new(WeaponsTeam,{name="Ruthless Strategists", front="https://i.imgur.com/2m
 Card:new(WeaponsTeam,{name="Sensor Team", front="https://i.imgur.com/pnn0pOz.jpg", cost=3})
 Card:new(WeaponsTeam,{name="Veteran Gunners", front="https://i.imgur.com/mYGP8R6.jpg", cost=5})
 Card:new(WeaponsTeam,{name="Weapons Battery Techs", front="https://i.imgur.com/wQ6S57i.jpg", cost=5})
+Card:new(WeaponsTeam,{name="Targeting Team", front="https://i.imgur.com/vWNg2iL.png", cost=5})
 
 ----#include defs/cards/weapons_team
 
