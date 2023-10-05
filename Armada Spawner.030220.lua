@@ -4015,8 +4015,8 @@ Squadron:new(eta, REPUBLIC_SQUAD, {
     front =     ASSETS_ROOT.."squadrons/republic/eta/anakin_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/republic/eta/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
-    cost = 24,
-    aliases = {'Anakin Skywalker (ETA-2)', "Anakin Skywalker (ETA-2 Actis)"}
+    cost = 23,
+    aliases = {'Anakin Skywalker (eta)', 'Anakin Skywalker (ETA-2)', "Anakin Skywalker (ETA-2 Actis)"}
 })
 Squadron:new(eta, REPUBLIC_SQUAD, {
 	name = "Obi-Wan Kenobi",
@@ -4391,7 +4391,7 @@ Squadron:new(sith, SEPARATISTS_SQUAD, {
 
 hmp = {
     diffuse =   ASSETS_ROOT.."squadrons/separatist/hmp/base_diffuse.jpg",
-    mesh =      ASSETS_ROOT.."squadrons/separatist/sith/co_he_ro_model.obj",
+    mesh =      ASSETS_ROOT.."squadrons/separatist/hmp/co_he_ro_model.obj",
     health = 5,
     move = 3,
     defense_tokens = {}}
@@ -4418,7 +4418,7 @@ Squadron:new(hmp, SEPARATISTS_SQUAD, {
 
 nantex = {
     diffuse =   ASSETS_ROOT.."squadrons/separatist/nantex/base_diffuse.jpg",
-    mesh =      ASSETS_ROOT.."squadrons/separatist/sith/cl_model.obj",
+    mesh =      ASSETS_ROOT.."squadrons/separatist/nantex/cl_model.obj",
     health = 4,
     move = 4,
     defense_tokens = {}}
