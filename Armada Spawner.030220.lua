@@ -2853,6 +2853,13 @@ Squadron:new(bwing, REBEL_SQUAD, {
     cost = 21
 })
 Squadron:new(bwing, REBEL_SQUAD, {
+	name = "Braylen Stramm",
+    front =     ASSETS_ROOT.."squadrons/rebel/bwing/braylen_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/rebel/bwing/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_BRACE},
+    cost = 19
+})
+Squadron:new(bwing, REBEL_SQUAD, {
 	name = "Dagger Squadron",
     front =     ASSETS_ROOT.."squadrons/rebel/bwing/dagger_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/bwing/unique_diffuse.jpg",
@@ -2888,6 +2895,13 @@ Squadron:new(ywing, REBEL_SQUAD, {
     cost = 17
 })
 Squadron:new(ywing, REBEL_SQUAD, {
+	name = 'Horton Salm',
+    front =     ASSETS_ROOT.."squadrons/rebel/ywing/horton_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/rebel/ywing/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_BRACE},
+    cost = 18
+})
+Squadron:new(ywing, REBEL_SQUAD, {
 	name = 'Gold Squadron',
     front =     ASSETS_ROOT.."squadrons/rebel/ywing/gold_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/rebel/ywing/unique_diffuse.jpg",
@@ -2919,6 +2933,13 @@ Squadron:new(awing, REBEL_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/rebel/awing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_SCATTER},
     cost = 19
+})
+Squadron:new(awing, REBEL_SQUAD, {
+	name = "Arvel Crynyd",
+    front =     ASSETS_ROOT.."squadrons/rebel/awing/arvel_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/rebel/awing/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_SCATTER},
+    cost = 16
 })
 Squadron:new(awing, REBEL_SQUAD, {
 	name = "Green Squadron",
@@ -2959,6 +2980,13 @@ Squadron:new(xwing, REBEL_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
     cost = 21
+})
+Squadron:new(xwing, REBEL_SQUAD, {
+	name = "Corran Horn",
+    front =     ASSETS_ROOT.."squadrons/rebel/xwing/corran_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/rebel/xwing/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_BRACE},
+    cost = 20
 })
 Squadron:new(xwing, REBEL_SQUAD, {
 	name = "Hera Syndulla",
@@ -3224,6 +3252,14 @@ Squadron:new(tie, EMPIRE_SQUAD, {
     cost = 15
 })
 Squadron:new(tie, EMPIRE_SQUAD, {
+	name = 'Iden Versio',
+    front =     ASSETS_ROOT.."squadrons/empire/tie/iden_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/empire/tie/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_SCATTER},
+    cost = 14,
+    aliases = {"Iden Versio (TIE Fighter)"}
+})
+Squadron:new(tie, EMPIRE_SQUAD, {
 	name = 'Black Squadron',
     front =     ASSETS_ROOT.."squadrons/empire/tie/black_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/tie/unique_diffuse.jpg",
@@ -3264,6 +3300,13 @@ Squadron:new(int, EMPIRE_SQUAD, {
     cost = 18
 })
 Squadron:new(int, EMPIRE_SQUAD, {
+	name = "Turr Phennir",
+    front =     ASSETS_ROOT.."squadrons/empire/int/turr_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/empire/int/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_SCATTER},
+    cost = 17
+})
+Squadron:new(int, EMPIRE_SQUAD, {
 	name = "Saber Squadron",
     front =     ASSETS_ROOT.."squadrons/empire/int/saber_card.jpg",
     diffuse =   ASSETS_ROOT.."squadrons/empire/int/unique_diffuse.jpg",
@@ -3292,6 +3335,14 @@ Squadron:new(bom, EMPIRE_SQUAD, {
 Squadron:new(bom, EMPIRE_SQUAD, {
 	name = "Captain Jonus",
     front =     ASSETS_ROOT.."squadrons/empire/bom/jonus_card.jpg",
+    diffuse =   ASSETS_ROOT.."squadrons/empire/bom/ace_diffuse.jpg",
+    mesh =      ASSETS_ROOT.."squadrons/empire/bom/bo_gr_he_model.obj",
+    defense_tokens = {DEF_BRACE,DEF_BRACE},
+    cost = 16
+})
+Squadron:new(bom, EMPIRE_SQUAD, {
+	name = "Tomax Bren",
+    front =     ASSETS_ROOT.."squadrons/empire/bom/tomax_card.png",
     diffuse =   ASSETS_ROOT.."squadrons/empire/bom/ace_diffuse.jpg",
     mesh =      ASSETS_ROOT.."squadrons/empire/bom/bo_gr_he_model.obj",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
@@ -3330,6 +3381,14 @@ Squadron:new(adv, EMPIRE_SQUAD, {
     diffuse =   ASSETS_ROOT.."squadrons/empire/adv/ace_diffuse.jpg",
     defense_tokens = {DEF_BRACE,DEF_BRACE},
     cost = 15
+})
+Squadron:new(adv, EMPIRE_SQUAD, {
+	name = "Maarek Stele",
+    front =     ASSETS_ROOT.."squadrons/empire/adv/maarek_card.png",
+    diffuse =   ASSETS_ROOT.."squadrons/empire/adv/ace_diffuse.jpg",
+    defense_tokens = {DEF_BRACE,DEF_BRACE},
+    cost = 17,
+    aliases = {'Maarek Stele (TIE Advanced)'}
 })
 Squadron:new(adv, EMPIRE_SQUAD, {
 	name = "Tempest Squadron",
