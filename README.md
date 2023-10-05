@@ -10,7 +10,7 @@ Todo list:
 - [ ] need images for existing ship bases that got updated (eg. MC80s)
 - [ ] images for cards that got updated point values (this is many many cards.... for now just trust what your fleet spawner lists for you)
 - [ ] cards and models for entirely new ships, squadrons, and upgrades
-
+- [ ] re-tint bases for placeholder ships so that you can identify that they are from the faction you are playing as more easily
 
 Checklist of items that are from Armada Legacy file folders
 
